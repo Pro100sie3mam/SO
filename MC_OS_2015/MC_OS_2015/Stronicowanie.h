@@ -3,12 +3,12 @@ class Strona
 {
 public:
 	const int Rozmiar = 16;
-	int AdresPoczatkowy=0;
 	bool JestZmapowanaWPamieciFizycznej=0;
 	bool JestNaDysku=0;
 	bool JestNaStosie=0;
 	bool PamiecBylaModyfikowana=0;
 	int AdresFizyczny=-1;
+	int ID_procesu;
 };
 
 class Stronicowanie
